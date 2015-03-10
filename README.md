@@ -11,7 +11,7 @@ Version de bootstrap compiler par Steph81
 Lien Packagist : https://packagist.org/packages/twitter/bootstrap_sp
 
 ##Intégration dans Symfony :
-modification du fichier app/config/config.yml
+Modification du fichier app/config/config.yml
 ```yml
 # Assetic Configuration
 assetic:
@@ -47,6 +47,7 @@ assetic:
 
 Dans les templates :
 ```twig
+...
 <head>
     ...
     {% block stylesheets %}
@@ -61,6 +62,7 @@ Dans les templates :
     {% endblock %}
     ...
 </head>
+...
 <body>
     ...
     {% block javascripts %}
@@ -71,4 +73,5 @@ Dans les templates :
 	{% endblock %}
 	...	
 </body>
+...
 ```
