@@ -1,5 +1,5 @@
 {
-	"name": "steph81/bootstrap_sp",
+	"name": "twitter/bootstrap_sp",
 	"description": "Version recompiler de Bootstrap - Steph81.",
 	"keywords": ["bootstrap"],
 	"type": "symfony-bundle",
