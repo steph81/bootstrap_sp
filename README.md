@@ -7,3 +7,5 @@ Version de bootstrap compiler par Steph81
 * Remplacement des Glyphicons icones par Font Awesome icones v4.3.0.
 * Ajout des sous-menu dans le dropdowns.
 * Ajout de 7 couleurs aux badges et 2 au label.
+
+Lien Packagist : https://packagist.org/packages/twitter/bootstrap_sp
