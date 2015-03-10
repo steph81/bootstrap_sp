@@ -1,6 +1,6 @@
 {
-	"name": "twitter/bootstrap_sp",
-	"description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+	"name": "steph81/bootstrap_sp",
+	"description": "Version recompiler de Bootstrap - Steph81.",
 	"keywords": ["bootstrap"],
 	"type": "symfony-bundle",
 	"homepage": "http://bootstrap-doc.prauds.fr/",
