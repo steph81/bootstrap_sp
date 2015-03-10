@@ -43,4 +43,32 @@ assetic:
             inputs:
                 - %kernel.root_dir%/../vendor/twitter/bootstrap_sp/fonts/fontawesome-webfont.woff
             output: "fonts/fontawesome-webfont.woff"
-  ```
+```
+
+Dans les templates :
+```twig
+<head>
+    ...
+    {% block stylesheets %}
+    	{% stylesheets '@bootstrap_css' %}
+    		<link rel="stylesheet" type="text/css" href="{{ asset_url }}"/>
+    	{% endstylesheets %}
+    	<!-- HTML5 Shim et Respond.js permet à IE8 de supporter les éléments du HTML5 -->
+    	<!--[if lt IE 9]>
+    		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    {% endblock %}
+    ...
+</head>
+<body>
+    ...
+    {% block javascripts %}
+		{% javascripts '@bootstrap_js' %}
+			<script src="{{ asset_url }}" type="text/javascript"></script>
+		{% endjavascripts %}
+		{# <script src="js/main.js"></script> #}
+	{% endblock %}
+	...	
+</body>
+```
