@@ -2,13 +2,21 @@
 	"name": "twitter/bootstrap_sp",
 	"description": "Version recompiler de Bootstrap - Steph81.",
 	"keywords": ["bootstrap"],
-	"type": "symfony-bundle",
-	"homepage": "http://bootstrap-doc.prauds.fr/",
+	"homepage": "https://github.com/steph81/bootstrap_sp",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Steph81",
-			"email": "praud.s@free.fr"
+			"email": "praud.s@free.fr",
+            "homepage": "http://bootstrap-doc.prauds.fr/"
 		}
-	]
+	],
+	"require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bootstrap_sp": "src"
+        }
+    }
 }
