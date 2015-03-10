@@ -1,0 +1,14 @@
+{
+	"name": "twitter/bootstrap_sp",
+	"description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+	"keywords": ["bootstrap"],
+	"type": "symfony-bundle",
+	"homepage": "http://bootstrap-doc.prauds.fr/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Steph81",
+			"email": "praud.s@free.fr"
+		}
+	]
+}
